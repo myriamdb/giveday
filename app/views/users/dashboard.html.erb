@@ -1,0 +1,31 @@
+<div class="container main d-flex flex-row">
+  <div class="lateral">
+    <!-- <div class="item btn-ghost">Mon profil</div>
+    <div class="item btn-ghost">Mes enfants</div>
+    <div class="item btn-ghost">Mes evenements</div>
+    <div class="item btn-ghost">Mes cagnottes</div> -->
+    <ul class="nav nav-tabs flex-column" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="kitty-tab" data-toggle="tab" href="#kitty" role="tab" aria-controls="kitty" aria-selected="true">Mes cagonttes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="event-tab" data-toggle="tab" href="#event" role="tab" aria-controls="event" aria-selected="true">Mes évènements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Mon profil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="kid-tab" data-toggle="tab" href="#kid" role="tab" aria-controls="kid" aria-selected="false">Mes enfants</a>
+      </li>
+    </ul>
+  </div>
+  <div class="content flex-grow-1">
+    
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="kitty" role="tabpanel" aria-labelledby="kitty-tab">cagnottes</div>
+      <div class="tab-pane fade" id="event" role="tabpanel" aria-labelledby="event-tab">évènement</div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">profile</div>
+      <div class="tab-pane fade" id="kid" role="tabpanel" aria-labelledby="kid-tab">mes enfants</div>
+    </div>
+  </div>
+</div>
