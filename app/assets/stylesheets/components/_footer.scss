@@ -1,0 +1,71 @@
+.footer {
+  width: 100%;
+
+  max-height: 100%;
+  background-color: $pale;
+  text-align: center;
+  padding: 12px 12px;
+  position: relative;
+  bottom: 0;
+
+
+  a {
+    color: black;
+  }
+// A propost de ma secance + Font Awsome
+.footer-top {
+  display: flex;
+  justify-content: center;
+
+  .footer-top-a-propos {
+    color: black;
+    font-size: 14px;
+    padding-right: 30px;
+
+    p {
+      margin-bottom: 0;
+      line-height: normal;
+    }
+  }
+
+  .footer-top-socialmedia {
+    //padding-top: 6px;
+    padding-left: 30px;
+    vertical-align: middle;
+
+   a:hover{
+    text-decoration: none;
+   }
+ // font Awsome
+   i.fab {
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 0 8px;
+    color: rgba(0,0,0,1) ;
+    transition: 0.2s
+   }
+    i.fab:hover {
+      color: $red;
+    }
+   }
+  }
+    // Ligne de séparation
+    .separation {
+      background-color: rgba(0,0,0,0.5);
+      opacity: 0.5;
+      height: 1px;
+      margin: 5px 29%;
+    }
+    // copyright-conditions d'utilisation
+    .footer-condition-utilisation {
+      color: black;
+      font-size: 11px;
+      p {
+        margin-bottom: 0;
+
+        strong {
+          font-weight: 500;
+        }
+      }
+    }
+}
