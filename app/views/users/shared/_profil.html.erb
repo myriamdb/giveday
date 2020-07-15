@@ -1,4 +1,4 @@
-  <%= simple_form_for(current_user, :url => update_avatar_path, method: 'patch' ) do |f| %>
+  <%= simple_form_for(current_user) do |f| %>
   <div class="form-container">
       <%= f.input :first_name,
                     required: true,
@@ -10,9 +10,19 @@
                     autofocus: true,
                     label:'Nom',
                     input_html: { autocomplete: "nom" }%>
-      <%= f.input :avatar,
+      <%= f.input :adress,
+                    required: false,
+                    autofocus: true,
+                    label:'Adresse',
+                    input_html: { autocomplete: "address" }%>
+      <%= f.input :phone,
+                    required: false,
+                    autofocus: true,
+                    label:'Téléphone',
+                    input_html: { autocomplete: "phone" }%>
+      <!-- <%= f.input :avatar,
                     label:'Selectionner une photo',
-                    as: :file, input_html: { accept: "image/*" }%>
+                    as: :file, input_html: { accept: "image/*" }%> -->
       <%= f.submit%>
   </div>
 <% end %>

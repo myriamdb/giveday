@@ -22,9 +22,15 @@
   <div class="content flex-grow-1">
     
     <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="kitty" role="tabpanel" aria-labelledby="kitty-tab">cagnottes</div>
-      <div class="tab-pane fade" id="event" role="tabpanel" aria-labelledby="event-tab">évènement</div>
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">profile</div>
+      <div class="tab-pane fade show active" id="kitty" role="tabpanel" aria-labelledby="kitty-tab">kitty
+      </div>
+      <div class="tab-pane fade " id="event" role="tabpanel" aria-labelledby="event-tab">
+        
+        <%= render "users/shared/event" %>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <%= render "users/shared/profil" %>
+      </div>
       <div class="tab-pane fade" id="kid" role="tabpanel" aria-labelledby="kid-tab">mes enfants</div>
     </div>
   </div>

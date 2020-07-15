@@ -1,0 +1,23 @@
+.btn-pale  {
+  color: black;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background:$pale;
+  transition: background 0.3s ease;
+}
+
+.btn-pale:hover {
+  background: white;
+}
+
+.btn-yellow  {
+  color: black;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background:$yellow;
+  transition: background 0.3s ease;
+}
+
+.btn-pale:hover {
+  background: $pale;
+}
