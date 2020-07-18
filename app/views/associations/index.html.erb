@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Nos supers patenaires!</h1>
+  <div class="row">
+    <% @associations.each do |ass| %>
+    <%= link_to association_path(ass) do %>
+    <%= render "card", association: ass %>
+    <% end %>
+    <% end %>
+  </div>
+</div>

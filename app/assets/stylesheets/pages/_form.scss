@@ -1,11 +1,19 @@
-.form-container {
-
+.form-inputs {
   margin: 0 auto;
-  width: 400px;
+  width: 25em;
   // margin: auto;
-  padding: 32px;
+  padding: 2em;
   background-color: rgba(231, 220, 71, 0.274);
   border: 2px solid rgba(0,0,0,.15);
   border-radius: 10px;
 }
 
+.form-actions {
+  margin: 1em auto;
+  width: 25em;
+  padding: 0.5em;
+  background-color: $yellow;
+  border: 0.2em solid rgba(0,0,0,.15);
+  border-radius: 10px;
+  text-align: center;
+}

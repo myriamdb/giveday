@@ -1,0 +1,4 @@
+<div class="assos_card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url(<%= cl_image_path association.photos.first.key ,height: 350, width: 350, crop: :fill, gravity: :face %>)">
+  <h3><%= association.name %></h3>
+  <p><%= association.tag_line %></p>
+</div>

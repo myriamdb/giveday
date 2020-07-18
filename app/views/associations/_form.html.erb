@@ -1,0 +1,13 @@
+<div class="form-inputs">
+  <%= simple_form_for(assos) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :tag_line %>
+  <%= f.input :description %>
+  <%= f.input :phone %>
+  <%= f.input :email %>
+  <%= f.input :address %>
+  <%= f.input :photos, hint: "photos", label:'Selectionner vos photo', as: :file, input_html: { multiple: true, accept: "image/*" }%>
+  <%= f.submit "Valider", class: "btn btn-ghost btn-lg btn-pale" %>
+<% end %>
+</div>
+
